@@ -1,0 +1,267 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.mainH{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(test.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.nav-icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-top: 15px;
+}
+
+.logo{
+    color: #ff7200;
+}
+
+.menuA{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.searchBox{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.sBox{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 15.5px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn-search{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 14.5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}
+
+.btn-search:focus{
+    outline: none;
+}
+
+.searchBox.btn-search:focus{
+    overflow: none;
+}
+
+.contentM{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.contentM .parGrph{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.contentM h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.contentM .n-btn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 17.4px;
+    border-radius: 9.5px;
+    cursor: pointer;
+    transition: 0.34s ease;
+}
+
+.contentM .n-btn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.n-btn:hover{
+    background-color: #fff;
+}
+
+.contentM span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: 'Courier New';
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: 'Courier New';
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: 'Courier New';
+}
+
+.login-btn{
+    width: 240px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 17.6px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.34s ease;
+}
+
+.login-btn:hover{
+    background-color: #fff;
+    color: #ff7200;
+}
+
+.login-btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Courier New';
+    font-size: 16.6;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+     text-decoration: none;
+     color: #ff7200;
+}
+
+.wink{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialMedia ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.39s ease;
+}
+
+.socialMedia ion-icon:hover{
+    color: #ff7200;
+}
+
+
+
